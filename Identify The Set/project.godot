@@ -1,0 +1,36 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[  ]
+_global_script_class_icons={
+
+}
+
+[application]
+
+config/name="Identify The Set"
+run/main_scene="res://Scenes/Game.tscn"
+config/icon="res://assets/godot_icon.png"
+
+[autoload]
+
+Globals="*res://Scripts/Globals.gd"
+
+[display]
+
+window/size/height=750
+
+[gdnative]
+
+singletons=[  ]
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"

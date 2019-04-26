@@ -1,0 +1,42 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scripts/Instructions.gd" type="Script" id=1]
+
+[node name="Instructions" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 696.6
+margin_top = 75.0
+margin_right = -27.4
+margin_bottom = -75.0
+script = ExtResource( 1 )
+
+[node name="Panel" type="Panel" parent="."]
+margin_right = 300.0
+margin_bottom = 600.0
+
+[node name="Instructions_Text" type="RichTextLabel" parent="Panel"]
+margin_right = 300.0
+margin_bottom = 600.0
+meta_underlined = false
+text = "						How To Play:
+						
+						
+Each set is composed of 3 items that have something in common.
+Each item is a programming language logo representing a language.
+Programming languages have some common characteristics to them such as 
+
+#insert here all 4 characteristics
+
+Each languages (that is, an item) has all 4 of those properties but they may very in their value.
+For example all language have the OOP property but for some its true and for some its false.
+
+To find a set you must find exactly 3 items that for each property, they are all the same or all completly different.
+
+#insert example of what is a set and what isnt
+
+Goodluck!
+
+"
+scroll_active = false
+

@@ -1,0 +1,71 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scripts/Hints.gd" type="Script" id=1]
+
+[node name="Hints" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+
+[node name="Panel_right" type="Panel" parent="."]
+margin_left = 801.0
+margin_top = 194.0
+margin_right = 1010.0
+margin_bottom = 623.0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel_right"]
+margin_right = 209.0
+margin_bottom = 431.0
+bbcode_enabled = true
+bbcode_text = "[img]res://assets/perl_icon_small.png[/img]: interpreted, , , .
+[img]res://assets/php_icon_small.png[/img]: interpreted, , , .
+[img]res://assets/powershell_icon_small.png[/img]: interpreted, , , .
+[img]res://assets/ruby_icon_small.png[/img]: interpreted, , , .
+[img]res://assets/sql_icon_small.png[/img]: interpreted, , , .
+[img]res://assets/py_icon_small.png[/img]: byte, , , .
+[img]res://assets/VB_icon_small.png[/img]: byte, , , .
+[img]res://assets/swift_icon_small.png[/img]: compiled, , , .
+"
+text = ": interpreted, , , .
+: interpreted, , , .
+: interpreted, , , .
+: interpreted, , , .
+: interpreted, , , .
+: byte, , , .
+: byte, , , .
+: compiled, , , .
+"
+
+[node name="Panel_left" type="Panel" parent="."]
+margin_left = 38.8878
+margin_top = 187.728
+margin_right = 254.888
+margin_bottom = 606.728
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel_left"]
+margin_right = 216.0
+margin_bottom = 419.0
+bbcode_enabled = true
+bbcode_text = "[img]res://assets/ada_icon_small.png[/img]: compiled, , , .
+[img]res://assets/c_icon_small.png[/img]: compiled, , , .
+[img]res://assets/cpp_icon_small.png[/img]: compiled, , , .
+[img]res://assets/crystal_icon_small.png[/img]: compiled, , , .
+[img]res://assets/cython_icon_small.png[/img]: compiled, , , .
+[img]res://assets/elixir_icon_small.png[/img]: byte, , , .
+[img]res://assets/godot_icon_small.png[/img]: byte, , , .
+[img]res://assets/java_icon_small.png[/img]: byte, , , .
+[img]res://assets/lua_icon_small.png[/img]: byte, , , .
+[img]res://assets/matlab_icon_small.png[/img] interpreted, , , .
+"
+text = ": compiled, , , .
+: compiled, , , .
+: compiled, , , .
+: compiled, , , .
+: compiled, , , .
+: byte, , , .
+: byte, , , .
+: byte, , , .
+: byte, , , .
+ interpreted, , , .
+"
+
